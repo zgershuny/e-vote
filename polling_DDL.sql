@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jul 03, 2020 at 04:34 AM
+-- Generation Time: Jul 14, 2020 at 03:56 AM
 -- Server version: 10.4.13-MariaDB
 -- PHP Version: 7.4.7
 
@@ -30692,7 +30692,7 @@ ALTER TABLE `Branches`
 -- AUTO_INCREMENT for table `Candidates`
 --
 ALTER TABLE `Candidates`
-  MODIFY `candidateID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=308;
+  MODIFY `candidateID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=309;
 
 --
 -- AUTO_INCREMENT for table `Cities`
