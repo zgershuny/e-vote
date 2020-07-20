@@ -14,3 +14,7 @@ NOTES
 - Uploaded the Website Design - a prototype with all the functionalities and layouts
 - Uploaded the 1st Progress Report Video https://youtu.be/nspd5EplFwc
 
+# July 20, 2020
+- Uploaded the DML file
+- Uploaded the updated Web Design. As I was going through the DML, I realized some functionalities on the Web Design did not make sense so they were tweaked.
+
