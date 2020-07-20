@@ -478,7 +478,16 @@ WHERE Candidates.candidateID=:input_candidateID;
 -- DISPLAY all elections the voter voted for
 -- may need a separate query to show the voter selection
 -- ---------------------------------------------------------------------------------------------------------
-
+SELECT CONCAT(Candidates.c_fName, ' ', Candidates.c_lName) AS 'c_fullName', 
+Parties.partyName
+FROM Elections
+	JOIN Occurrences ON Elections.occurrenceID = Occurrences.occurrenceID
+	JOIN Pools ON Elections.electionID = Pools.electionID
+	JOIN Candidates ON Pools.candidateID = Candidates.candidateID
+	JOIN Affiliations ON Candidates.candidateID = Affiliations.candidateID
+	JOIN Parties ON Affiliations.partyID=Parties.partyID
+    JOIN Voters on Affiliations.voterID=Voters.voterID
+WHERE Voters.voterID=:input_voterID
 
 -- ---------------------------------------------------------------------------------------------------------
 -- PAGE 14 OF THE WEBSITE DESIGN PDF 
