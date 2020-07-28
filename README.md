@@ -20,7 +20,7 @@ NOTES
 
 # July 27, 2020
 - Uploaded the main.html, files for the code, 404 and 500 handlebars, and home.html (not active)
-- Uploaded the written/drawn code layout and psuedocode for the Page 3 of the Website Diagram
+- Uploaded the written/drawn code layout and psuedocode for the Page 2 of the Website Diagram
 - Challenges: 
 
 1) On the main.html - I have not yet figured out how to get the icons to appear in the bottom navigation bar. It's probably something simple, but I just haven't seen it yet. The link works though. 
