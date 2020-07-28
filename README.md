@@ -19,7 +19,7 @@ NOTES
 - Uploaded the updated Web Design. As I was going through the DML, I realized some functionalities on the Web Design did not make sense so they were tweaked.
 
 # July 27, 2020
-- Uploaded the main.html
+- Uploaded the main.html, files for the code, 404 and 500 handlebars, and home.html (not active)
 - Uploaded the written/drawn code layout and psuedocode for the Page 3 of the Website Diagram
 - Challenges: 
 
