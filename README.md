@@ -1,7 +1,7 @@
 # e-vote
 Documenting E-VOTE! for OSU CS 406 - Projects (and beyond).
 
-The repository will be uploaded on a regular bases to show my progression.
+The repository will be uploaded on a regular basis to show my progression within this course and afterwards.
 
 NOTES
 # July 2, 2020
@@ -17,10 +17,12 @@ NOTES
 # July 20, 2020
 - Uploaded the DML file
 - Uploaded the updated Web Design. As I was going through the DML, I realized some functionalities on the Web Design did not make sense so they were tweaked.
+- 2nd Progress Report Video https://www.youtube.com/watch?v=gmzkUlG8EuU&t=33s
 
 # July 27, 2020
 - Uploaded the main.html, files for the code, 404 and 500 handlebars, and home.html (not active)
 - Uploaded the written/drawn code layout and psuedocode for the Page 2 of the Website Diagram
+- 3rd Progress Report Video https://www.youtube.com/watch?v=5ECfvtZwzc0
 - Challenges: 
 
 1) On the main.html - I have not yet figured out how to get the icons to appear in the bottom navigation bar. It's probably something simple, but I just haven't seen it yet. The link works though. 
