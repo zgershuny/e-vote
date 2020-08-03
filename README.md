@@ -29,3 +29,9 @@ NOTES
 
 2) I had trouble writing html code for Page 2 of the Website Diagram because there are three search forms, and each form is in it's own column, all adjacent to each other. I wondered if this is a good programming practice to have multiple forms in a single page because I could not remember seeing it before. I thought about splitting up the page into three pages - one for each search form. However, it seems to be doable based on my search on various StackOverflow posts and that the button needs to be unique from all others. Then the next challenge was coding the form so I drew it and then turned it into psuedocode first. 
 - Tools used: Sublime Text and paper and a sharpie
+
+# August 3, 2020
+- Uploaded the findElections.html and resultsLocation.html (static pages with handlebars coding)
+- Psuedocode was extremely helpful. Had to modify a little bit - needed form-group and only one row. 
+- The resultsLocation.html includes handlebars to ensure correct placement. May need to be modified when making the page dynamic.
+- 4th Progress Report Video
