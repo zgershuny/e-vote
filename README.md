@@ -34,4 +34,5 @@ NOTES
 - Uploaded the findElections.html and resultsLocation.html (static pages with handlebars coding)
 - Psuedocode was extremely helpful. Had to modify a little bit - needed form-group and only one row. 
 - The resultsLocation.html includes handlebars to ensure correct placement. May need to be modified when making the page dynamic.
-- 4th Progress Report Video
+- The submit button on resultsLocation.html will need to be more associated with "display results"
+- 4th Progress Report Video https://youtu.be/7jMHh3aTWfM
