@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>E-VOTE</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+  </head>
+
+  <body>
+
+
+<!-- DELETE ABOVE WHEN HANDLEBARS -->
+
+<div class="container">
+  <div class="jumbotron">
+    <h1><i class="fa fa-check" aria-hidden="true"></i> Registration: Candidates </h1>
+    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
+
+<div class="container">
+	<h2> Registration </h2>
+		<form id="registration_form" name="registration_form" action="/candidateRegistration" method="post">
+		<div class="form-row">
+			<div class="col">
+				<label for="v_fName"> First Name </label>
+				<input type="text" class="form-control" name="v_fName" id="v_fName" value="{{v_fName}}" required>
+			</div>
+			<div class="col">
+				<label for="v_lName"> Last Name </label>
+				<input type="text" class="form-control" name="v_lName" id="v_lName" value="{{v_lName}}" required>
+			</div>
+			<div class="col">
+				<label for="ssn"> SSN </label>
+				<input type="number" class="form-control" maxlength="3" pattern="[0-9]|[0-9]|[0-9]|[0-9]|[0-9]|[0-9]|[0-9]|[0-9]|[0-9]" value="{{ssn}}" name="ssn" id="ssn" required>
+			</div>
+			<div class="col">
+				<label for="birthDate"> Birthdate </label>
+				<input type="date" class="form-control" name="date" id="date" value="{{birthDate}}" required>
+			</div>
+			<div class="col">
+				<label for="address"> Address </label>
+				<input type="text" class="form-control" name="address" id="address" value="{{address}}" required>
+			</div>
+			<div class="col">
+				<label for="aptNum"> Apt Number </label>
+				<input type="text" class="form-control" name="aptNum" id="aptNum" value="{{aptNum}}">
+			</div>
+		</div>
+		<div class="form-row">
+			<div class="col">
+				<label for="city"> City </label>
+				<input type="text" class="form-control" name="cityName" id="cityName" value="{{cityName}}">
+			</div>
+			<div class="col">
+        <label for="state"> State </label>
+				<input type="text" class="form-control" name="stateName" id="stateName" value="{{stateName}}">
+      </div>
+			<div class="col">
+				<label for="zipcode"> Zipcode </label>
+				<input type="text" class="form-control" name="zipcode" id="zipcode" value="{{zipcode}}">
+			</div>
+		</div>
+		<div class="form-row">
+			<div class="col">
+				<label for="phoneNumber"> Phone Number </label>
+				<input type="number" class="form-control" maxlength="10" pattern="[0-9]|[0-9]|[0-9]|[0-9]|[0-9]|[0-9]|[0-9]|[0-9]|[0-9]|[0-9]" value="{{phoneNumber}}" id="phoneNumber">
+			</div>
+			<div class="col">
+				<label for="cellNumber"> Cell Number </label>
+				<input type="number" class="form-control" maxlength="10" pattern="[0-9]|[0-9]|[0-9]|[0-9]|[0-9]|[0-9]|[0-9]|[0-9]|[0-9]|[0-9]" value="{{cellNumber}}" id="cellNumber">
+			</div>
+			<div class="col">
+				<label for="emailAddress"> Email Address </label>
+				<input type="text" class="form-control" value="{{emailAddress}}" id="emailAddress">
+			</div>
+		</div>
+		<div class="form-row">
+			<div class="col">
+        <label for="partyAffiliation"> Party </label>
+				<input type="text" class="form-control" name="partyName" id="partyName" value="{{partyName}}">
+      </div>
+      <div class="col">
+        <label for="genderAffiliation"> Gender </label>
+				<input type="text" class="form-control" name="genderName" id="genderName" value="{{genderName}}">
+      </div>
+      <div class="col">
+        <label for="sexAffiliation"> Sex </label>
+				<input type="text" class="form-control" name="sexName" id="sexName" value="{{sexName}}">
+      </div>
+     </div>
+		<button type="submit" value ="Submit" class="btn btn-primary">Register</button> 
+		</form>	
+</div>
+
+<!-- DELETE BELOW WHEN HANDLEBARS -->
+
+<!-- SCRIPTS for Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script></body>
+</html>
