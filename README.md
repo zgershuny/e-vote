@@ -36,3 +36,12 @@ NOTES
 - The resultsLocation.html includes handlebars to ensure correct placement. May need to be modified when making the page dynamic.
 - The submit button on resultsLocation.html will need to be more associated with "display results"
 - 4th Progress Report Video https://youtu.be/7jMHh3aTWfM
+
+# August 14, 2020
+- Uploaded directories. This is a large scale project so I wanted to start of being as organized as possible to avoid confusion and create a smooth workflow. I used this link to start off my organization: https://softwareengineering.stackexchange.com/questions/81899/how-should-i-organize-my-source-tree
+- Uploaded some files, including a dbcon.js (incomplete) and html files. All static pages - basically pages 1 to 9 of the Website Design. Some modifications were made because I thought of a better workflow, which will be drawn onto paper in the future - perhaps UML Class Design.
+- Uploaded the Final Project Report (to report out for the end of the Summer 2020 Term which includes next steps)
+- 5th Progress Report Video: LINK TBD
+
+
+
